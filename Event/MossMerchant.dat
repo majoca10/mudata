@@ -1,0 +1,109 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+0
+// ---------------------------------------------
+//             [1~255]     [1~255]     [*/0~8]
+// MapNumber   LocationX   LocationY   Direction
+// ---------------------------------------------
+   51          22          225         2
+end
+
+1
+// ------------------------------------------------------------------------------
+// [*/0000]    [*/0~12]     [*/0~31]   [*/1~7]    [*/0~23]    [*/0~59]   [*/0~59]
+// StartYear   StartMonth   StartDay   StartDoW   StartHour   StartMin   StartSec
+// ------------------------------------------------------------------------------
+   *           *            *          *          2           0          0
+   *           *            *          *          8           0          0
+   *           *            *          *          14          0          0
+   *           *            *          *          20          0          0
+end
+
+2
+// -------------------------------------------------------------------------------------------------------------------------------
+// [Ref: ItemOptionRate.txt]   [Level]   [Skill]   [Luck]    [JoL]     [Exc]     [Set]     [Socket]
+// -------------------------------------------------------------------------------------------------------------------------------
+// [00,000]    [0~4]           [*/N]     [*/N]     [*/N]     [*/N]     [*/N]     [*/N]     [*/N]     [0~10000]
+// ItemIndex   MossItemGroup   Option0   Option1   Option2   Option3   Option4   Option5   Option6   GambleRate   Comment
+// -------------------------------------------------------------------------------------------------------------------------------
+   00,001      0               9         9         9         9         9         9         9         4000         //Short Sword
+   00,004      0               9         9         9         9         9         9         9         4000         //Sword of Assassin
+   00,006      0               9         9         9         9         9         9         9         4000         //Gladius
+   00,007      0               9         9         9         9         9         9         9         4000         //Falcon
+   00,008      0               9         9         9         9         9         9         9         4000         //Serpent Sword
+   00,009      0               9         9         9         9         9         9         9         4000         //Sword of Salamander
+   05,000      1               9         9         9         9         9         9         9         4000         //Skill Staff
+   05,001      1               9         9         9         9         9         9         9         4000         //Angelic Staff
+   05,002      1               9         9         9         9         9         9         9         4000         //Serpent Staff
+   04,000      2               9         9         9         9         9         9         9         4000         //Short Bow
+   04,001      2               9         9         9         9         9         9         9         4000         //Bow
+   04,002      2               9         9         9         9         9         9         9         4000         //Elven Bow
+   04,003      2               9         9         9         9         9         9         9         4000         //battle Bow
+   02,008      3               9         9         9         9         9         9         9         4000         //Battle Scepter
+   02,009      3               9         9         9         9         9         9         9         4000         //Master Scepter
+   05,014      4               9         9         9         9         9         9         9         4000         //Mystery Stick
+   00,000      0               9         9         9         9         9         9         9         3000         //Kris
+   00,002      0               9         9         9         9         9         9         9         3000         //Rapier
+   00,003      0               9         9         9         9         9         9         9         3000         //Katana
+   00,005      0               9         9         9         9         9         9         9         3000         //Blade
+   00,010      0               9         9         9         9         9         9         9         3000         //Light Saber
+   00,011      0               9         9         9         9         9         9         9         3000         //Legendary Sword
+   00,012      0               9         9         9         9         9         9         9         3000         //Helical Sword
+   00,013      0               9         9         9         9         9         9         9         3000         //Double Blade
+   00,014      0               9         9         9         9         9         9         9         3000         //Lighting Sword
+   00,015      0               9         9         9         9         9         9         9         3000         //Giant Sword
+   02,003      0               9         9         9         9         9         9         9         3000         //Great Hammer
+   02,004      0               9         9         9         9         9         9         9         3000         //Crystal Morning Start
+   02,005      0               9         9         9         9         9         9         9         3000         //Crystal Sword
+   03,007      0               9         9         9         9         9         9         9         3000         //Berdysh
+   03,008      0               9         9         9         9         9         9         9         3000         //Great Scythe
+   03,009      0               9         9         9         9         9         9         9         3000         //Bill of Balrog
+   05,003      1               9         9         9         9         9         9         9         3000         //Thunder Staff
+   05,004      1               9         9         9         9         9         9         9         3000         //Gorgon Staff
+   04,004      2               9         9         9         9         9         9         9         3000         //Tiger Bow
+   04,005      2               9         9         9         9         9         9         9         3000         //Silver Bow
+   04,009      2               9         9         9         9         9         9         9         3000         //Golden Crossbow
+   04,010      2               9         9         9         9         9         9         9         3000         //Arquebus
+   02,010      3               9         9         9         9         9         9         9         3000         //Great Scepter
+   02,011      3               9         9         9         9         9         9         9         3000         //Lord Scepter
+   05,015      4               9         9         9         9         9         9         9         3000         //Violet Wing Stick
+   05,016      4               9         9         9         9         9         9         9         3000         //Red Wing Stick
+   03,010      0               9         9         9         9         9         9         9         2000         //Dragon Spear
+   00,016      0               9         9         9         9         9         9         9         2000         //Sword of Destruction
+   00,017      0               9         9         9         9         9         9         9         2000         //Dark Breaker
+   00,018      0               9         9         9         9         9         9         9         2000         //Thunder Blade
+   05,005      1               9         9         9         9         9         9         9         2000         //Legendary Staff
+   05,006      1               9         9         9         9         9         9         9         2000         //Staff of Resurrection
+   05,008      1               9         9         9         9         9         9         9         2000         //Staff of Destruction
+   04,011      2               9         9         9         9         9         9         9         2000         //Light Crossbow
+   04,014      2               9         9         9         9         9         9         9         2000         //Aquagold Crossbow
+   04,016      2               9         9         9         9         9         9         9         2000         //Saint Crossbow
+   04,017      2               9         9         9         9         9         9         9         2000         //Celestial Bow
+   04,019      2               9         9         9         9         9         9         9         2000         //Great Reign Crossbow
+   04,020      2               9         9         9         9         9         9         9         2000         //Arrow Viper Bow
+   02,012      3               9         9         9         9         9         9         9         2000         //Great Lord Scepter
+   05,017      4               9         9         9         9         9         9         9         2000         //Ancient Stick
+   00,020      0               9         9         9         9         9         9         9         1000         //Knight Blade
+   00,021      0               9         9         9         9         9         9         9         1000         //Dark Reign Blade
+   00,031      0               9         9         9         9         9         9         9         1000         //Rune Blade
+   00,024      0               9         9         9         9         9         9         9         1000         //Daybreak
+   00,025      0               9         9         9         9         9         9         9         1000         //Sword Dancer
+   05,009      1               9         9         9         9         9         9         9         1000         //Dragon Soul Staff
+   05,011      1               9         9         9         9         9         9         9         1000         //Staff of Kundun
+   05,013      1               9         9         9         9         9         9         9         1000         //Platina Staff
+   04,022      2               9         9         9         9         9         9         9         1000         //Albatross Bow
+   02,015      3               9         9         9         9         9         9         9         1000         //Shinning Scepter
+   05,018      4               9         9         9         9         9         9         9         1000         //Demonic Stick
+   14,096      0               9         9         9         9         9         9         9         100          //Talisman of Chaos Assembly
+   14,096      1               9         9         9         9         9         9         9         100          //Talisman of Chaos Assembly
+   14,096      2               9         9         9         9         9         9         9         100          //Talisman of Chaos Assembly
+   14,096      3               9         9         9         9         9         9         9         100          //Talisman of Chaos Assembly
+   14,096      4               9         9         9         9         9         9         9         100          //Talisman of Chaos Assembly
+end

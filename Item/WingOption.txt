@@ -1,0 +1,31 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// --------------------------------------------------------------------------------------------------------------------------
+// ItemIndex   DefenseConstA   IncDamageConstA   IncDamageConstB   DecDamageConstA   DecDamageConstB   MaxNewOption   Comment
+// --------------------------------------------------------------------------------------------------------------------------
+   12,000      3               112               2                 88                2                 0              //Wings of Elf
+   12,001      3               112               2                 88                2                 0              //Wings of Heaven
+   12,002      3               112               2                 88                2                 0              //Wings of Satan
+   12,003      2               132               1                 75                2                 3              //Wings of Spirits
+   12,004      2               132               1                 75                2                 3              //Wings of Soul
+   12,005      2               132               1                 75                2                 3              //Wings of Dragon
+   12,006      2               132               1                 75                2                 3              //Wings of Darkness
+   12,036      4               139               2                 61                2                 4              //Wing of Storm
+   12,037      4               139               2                 61                2                 4              //Wing of Eternal
+   12,038      4               139               2                 61                2                 4              //Wing of Illusion
+   12,039      4               139               2                 61                2                 4              //Wing of Ruin
+   12,040      4               139               2                 76                2                 4              //Cape of Emperor
+   12,041      3               112               2                 88                2                 0              //Wing of Curse
+   12,042      2               132               1                 75                2                 3              //Wing of Despair
+   12,043      4               139               2                 61                2                 4              //Wing of Dimension
+   12,049      3               120               2                 90                2                 3              //Cape of Fighter
+   12,050      4               139               2                 61                2                 4              //Cape of Overrule
+   13,030      3               120               2                 90                1                 4              //Cape of Lord
+end

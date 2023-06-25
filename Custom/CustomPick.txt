@@ -1,0 +1,15 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------
+// ItemIndex   ItemLevel   Comment
+// -------------------------------
+// EXAMPLE
+// 12,015      *           // No pick Jewel of Chaos
+end

@@ -1,0 +1,22 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------------------
+// [00,000]    [*/0~13]    [0-1]
+// ItemIndex   ItemLevel   AllowLoot   Comment
+// -------------------------------------------
+   14,023      *           0           //Scroll of the Emperor
+   14,024      *           0           //Broken Sword
+   14,024      *           0           //Tear of Elf
+   14,026      *           0           //Soul Shard of Wizard
+   14,065      *           0           //Death-beam Knight Flame
+   14,066      *           0           //Hell-Miner Horn
+   14,067      *           0           //Dark Phoenix Feather
+   14,068      *           0           //Abyssal Eye
+end

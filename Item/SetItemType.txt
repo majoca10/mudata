@@ -1,0 +1,181 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// ---------------------------------------------------------------------------
+// [00,000]    [0~85]     [Index]        [Index]        [0~10000]
+// ItemIndex   StatType   OptionIndex1   OptionIndex2   ItemDropRate   Comment
+// ---------------------------------------------------------------------------
+   00,002      0          21             0              10000          //Rapier
+   00,014      0          11             0              10000          //Lighting Sword
+   00,032      0          37             38             10000          //Sacred Glove
+   02,001      0          1              0              10000          //Morning Star
+   04,005      1          29             0              10000          //Silver Bow
+   04,009      1          23             0              10000          //Golden Crossbow
+   05,000      2          13             0              10000          //Skull Staff
+   06,000      3          2              0              10000          //Small Shield
+   06,006      3          17             0              10000          //Skull Shield
+   06,009      3          5              0              10000          //Plate Shield
+   07,000      3          4              0              10000          //Bronze Helm
+   07,001      3          11             12             10000          //Dragon Helm
+   07,002      3          13             14             10000          //Pad Helm
+   07,003      3          19             20             10000          //Legendary Helm
+   07,004      3          16             0              10000          //Bone Helm
+   07,005      3          1              2              10000          //Leather Helm
+   07,006      3          5              6              10000          //Scale Helm
+   07,007      3          17             0              10000          //Sphinx Mask
+   07,008      3          8              0              10000          //Brass Helm
+   07,009      3          10             0              10000          //Plate Helm
+   07,010      3          21             22             10000          //Vine Helm
+   07,011      3          23             0              10000          //Silk Helm
+   07,012      3          25             0              10000          //Wind Helm
+   07,013      3          28             0              10000          //Spirit Helm
+   07,014      3          0              30             10000          //Guardian Helm
+   07,026      3          33             0              10000          //Adamantine Mask
+   07,040      3          35             36             10000          //Red Wing Helm
+   07,059      3          37             0              10000          //Sacred Helm
+   07,062      3          39             0              0              //Lucky Scale Helm
+   07,063      3          40             0              0              //Lucky Silk Helm
+   07,064      3          41             0              0              //Lucky Sphinx Helm
+   07,065      3          42             0              0              //Lucky Violent Wind Helm
+   07,066      3          43             0              0              //Lucky Dark Soul Helm
+   07,067      3          44             0              0              //Lucky Dragon Helm
+   07,068      3          45             0              0              //Lucky Guardian Helm
+   07,069      3          46             0              0              //Lucky Legendary Helm
+   07,070      3          47             0              0              //Lucky Red Wing Helm
+   07,072      3          49             0              0              //Lucky Storm Hard Helm
+   08,000      3          3              0              10000          //Bronze Armor
+   08,001      3          0              12             10000          //Dragon Armor
+   08,002      3          13             0              10000          //Pad Armor
+   08,003      3          19             20             10000          //Legendary Armor
+   08,004      3          15             16             10000          //Bone Armor
+   08,005      3          1              0              10000          //Leather Armor
+   08,006      3          5              6              10000          //Scale Armor
+   08,007      3          17             18             10000          //Sphinx Armor
+   08,008      3          7              0              10000          //Brass Armor
+   08,009      3          9              10             10000          //Brass Armor
+   08,010      3          22             0              10000          //Vine Armor
+   08,011      3          23             0              10000          //Silk Armor
+   08,012      3          25             0              10000          //Wind Armor
+   08,013      3          27             0              10000          //Spirit Armor
+   08,014      3          29             30             10000          //Guardian Armor
+   08,015      3          31             32             10000          //Storm Crow Armor
+   08,026      3          33             0              10000          //Adamantine Armor
+   08,040      3          0              36             10000          //Red Wing Armor
+   08,059      3          37             38             10000          //Sacred Armor
+   08,062      3          39             0              0              //Lucky Scale Armor
+   08,063      3          40             0              0              //Lucky Silk Armor
+   08,064      3          41             0              0              //Lucky Sphinx Armor
+   08,065      3          42             0              0              //Lucky Violent Wind Armor
+   08,066      3          43             0              0              //Lucky Dark Soul Armor
+   08,067      3          44             0              0              //Lucky Dragon Armor
+   08,068      3          45             0              0              //Lucky Guardian Armor
+   08,069      3          46             0              0              //Lucky Legendary Armor
+   08,070      3          47             0              0              //Lucky Red Wing Armor
+   08,071      3          48             0              0              //Lucky Atlans Armor
+   08,072      3          49             0              0              //Lucky Storm Hard Armor
+   09,000      3          3              4              10000          //Bronze Pants
+   09,001      3          0              12             10000          //Dragon Pants
+   09,002      3          13             14             10000          //Pad Pants
+   09,003      3          0              20             10000          //Legendary Pants
+   09,004      3          15             0              10000          //Bone Pants
+   09,005      3          1              2              10000          //Leather Pants
+   09,006      3          5              6              10000          //Scale Pants
+   09,007      3          17             18             10000          //Sphinx Pants
+   09,008      3          7              8              10000          //Brass Pants
+   09,009      3          10             0              10000          //Plate Pants
+   09,010      3          21             22             10000          //Vine Pants
+   09,011      3          23             24             10000          //Silk Pants
+   09,012      3          25             26             10000          //Wiln Pants
+   09,013      3          27             28             10000          //Spirit Pants
+   09,014      3          0              30             10000          //Guardian Pants
+   09,015      3          31             32             10000          //Storm Crow Pants
+   09,026      3          33             34             10000          //Adamantine Pants
+   09,040      3          35             0              10000          //Red Wing Pants
+   09,059      3          37             8              10000          //Sacred Pants
+   09,062      3          39             0              0              //Lucky Scale Pants
+   09,063      3          40             0              0              //Lucky Silk Pants
+   09,064      3          41             0              0              //Lucky Sphinx Pants
+   09,065      3          42             0              0              //Lucky Violent Wind Pants
+   09,066      3          43             0              0              //Lucky Dark Soul Pants
+   09,067      3          44             0              0              //Lucky Dragon Pants
+   09,068      3          45             0              0              //Lucky Guardian Pants
+   09,069      3          46             0              0              //Lucky Legendary Pants
+   09,070      3          47             0              0              //Lucky Red Wing Pants
+   09,071      3          48             0              0              //Lucky Atlans Pants
+   09,072      3          49             0              0              //Lucky Storm Hard Pants
+   10,000      3          4              0              10000          //Bronze Gloves
+   10,001      3          11             0              10000          //Dragon Gloves
+   10,002      3          13             0              10000          //Pad Gloves
+   10,003      3          19             0              10000          //Legendary Gloves
+   10,004      3          16             0              10000          //Bone Gloves
+   10,005      3          1              0              10000          //Leather Gloves
+   10,006      3          6              0              10000          //Scale Gloves
+   10,007      3          17             0              10000          //Sphinx Gloves
+   10,008      3          7              0              10000          //Brass Gloves
+   10,009      3          9              0              10000          //Plate Gloves
+   10,010      3          21             0              10000          //Vine Gloves
+   10,011      3          23             24             10000          //Silk Gloves
+   10,012      3          25             0              10000          //Wind Gloves
+   10,013      3          27             0              10000          //Spirit Gloves
+   10,014      3          29             0              10000          //Guardian Gloves
+   10,015      3          0              32             10000          //Storm Crow Gloves
+   10,026      3          0              34             10000          //Adamantine Gloves
+   10,040      3          35             36             10000          //Red Wing Gloves
+   10,062      3          39             0              0              //Lucky Scale Gloves
+   10,063      3          40             0              0              //Lucky Silk Gloves
+   10,064      3          41             0              0              //Lucky Sphinx Gloves
+   10,065      3          42             0              0              //Lucky Violent Wind Gloves
+   10,066      3          43             0              0              //Lucky Dark Soul Gloves
+   10,067      3          44             0              0              //Lucky Dragon Gloves
+   10,068      3          45             0              0              //Lucky Guardian Gloves
+   10,069      3          46             0              0              //Lucky Legendary Gloves
+   10,070      3          47             0              0              //Lucky Red Wing Gloves
+   10,071      3          48             0              0              //Lucky Atlans Gloves
+   11,000      3          3              0              10000          //Bronze Boots
+   11,001      3          11             0              10000          //Dragon Boots
+   11,002      3          14             0              10000          //Pad Boots
+   11,003      3          0              20             10000          //Legendary Boots
+   11,004      3          15             16             10000          //Bone Boots
+   11,005      3          1              2              10000          //Leather Boots
+   11,006      3          6              0              10000          //Scale Boots
+   11,007      3          17             18             10000          //Sphinx Boots
+   11,008      3          7              0              10000          //Brass Boots
+   11,009      3          9              0              10000          //Plate Boots
+   11,010      3          21             22             10000          //Vine Boots
+   11,011      3          24             0              10000          //Silk Boots
+   11,012      3          25             26             10000          //Wind Boots
+   11,014      3          29             30             10000          //Guardian Boots
+   11,015      3          31             0              10000          //Storm Crow Boots
+   11,026      3          0              34             10000          //Adamantine Boots
+   11,040      3          0              36             10000          //Red Wing Boots
+   11,059      3          38             0              10000          //Sacred Boots
+   11,062      3          39             0              0              //Lucky Scale Boots
+   11,063      3          40             0              0              //Lucky Silk Boots
+   11,064      3          41             0              0              //Lucky Sphinx Boots
+   11,065      3          42             0              0              //Lucky Violent Wind Boots
+   11,066      3          43             0              0              //Lucky Dark Soul Boots
+   11,067      3          44             0              0              //Lucky Dragon Boots
+   11,068      3          45             0              0              //Lucky Guardian Boots
+   11,069      3          46             0              0              //Lucky Legendary Boots
+   11,070      3          47             0              0              //Lucky Red Wing Boots
+   11,071      3          48             0              0              //Lucky Atlans Boots
+   11,072      3          49             0              0              //Lucky Storm Hard Boots
+   13,008      1          1              0              10000          //Ring of Ice
+   13,009      3          9              33             10000          //Ring of Poison
+   13,012      2          5              0              10000          //Pendant of Lighting
+   13,013      0          7              0              10000          //Pendant of Fire
+   13,021      2          19             32             10000          //Ring of Fire
+   13,022      0          21             12             10000          //Ring of Earth
+   13,023      1          9              0              10000          //Ring of Wind
+   13,024      2          13             35             10000          //Ring of Magic
+   13,025      0          13             34             10000          //Pendant of Ice
+   13,026      1          15             0              10000          //Pendant of Wind
+   13,027      3          31             0              10000          //Pendant of Water
+   13,028      1          29             0              10000          //Pendant of Ability
+end

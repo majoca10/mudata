@@ -1,0 +1,99 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------
+// [00,000]    [0~15]
+// ItemIndex   ItemLevel   Comment
+// -------------------------------
+   00,000      4           //Kriss
+   00,001      4           //Short Sword
+   00,002      4           //Rapier
+   00,004      4           //Sword of Assassin
+   01,000      4           //Small Axe
+   01,001      4           //Hand Axe
+   01,002      4           //Double Axe
+   02,000      4           //Mace
+   02,001      4           //Morning Star
+   02,002      4           //Flail
+   03,001      4           //Spear
+   03,002      4           //Dragon Lance
+   03,003      4           //Giant Trident
+   03,005      4           //Double Poleaxe
+   03,006      4           //Halberd
+   04,000      4           //Short Bow
+   04,001      4           //Bow
+   04,002      4           //Elven Bow
+   04,003      4           //Battle Bow
+   04,008      4           //Crossbow
+   04,009      4           //Golden Crossbow
+   04,010      4           //Arquebus
+   04,011      4           //Light Crossbow
+   05,000      4           //Skull Staff
+   05,001      4           //Angelic Staff
+   05,002      4           //Serpent Staff
+   06,000      4           //Small Shield
+   06,001      4           //Horn Shield
+   06,002      4           //Kite Shield
+   06,003      4           //Elven Shield
+   06,004      4           //Buckler
+   06,006      4           //Skull Shield
+   06,007      4           //Spiked Shield
+   06,009      4           //Plate Shield
+   06,010      4           //Large Round Shield
+   07,000      4           //Bronze Helm
+   07,002      4           //Pad Helm
+   07,004      4           //Bone Helm
+   07,005      4           //Leather Helm
+   07,006      4           //Scale Helm
+   07,007      4           //Sphinx Mask
+   07,008      4           //Brass Helm
+   07,010      4           //Vine Helm
+   07,011      4           //Silk Helm
+   07,012      4           //Wind Helm
+   08,000      4           //Bronze Armor
+   08,002      4           //Pad Armor
+   08,004      4           //Bone Armor
+   08,005      4           //Leather Armor
+   08,006      4           //Scale Armor
+   08,007      4           //Sphinx Armor
+   08,008      4           //Brass Armor
+   08,010      4           //Vine Armor
+   08,011      4           //Silk Armor
+   08,012      4           //Wind Armor
+   09,000      4           //Bronze Pants
+   09,002      4           //Pad Pants
+   09,004      4           //Bone Pants
+   09,005      4           //Leather Pants
+   09,006      4           //Scale Pants
+   09,007      4           //Sphinx Pants
+   09,008      4           //Brass Pants
+   09,010      4           //Vine Pants
+   09,011      4           //Silk Pants
+   09,012      4           //Wind Pants
+   10,000      4           //Bronze Gloves
+   10,002      4           //Pad Gloves
+   10,004      4           //Bone Gloves
+   10,005      4           //Leather Gloves
+   10,006      4           //Scale Gloves
+   10,007      4           //Sphinx Gloves
+   10,008      4           //Brass Gloves
+   10,010      4           //Vine Gloves
+   10,011      4           //Silk Gloves
+   10,012      4           //Wind Gloves
+   11,000      4           //Bronze Boots
+   11,002      4           //Pad Boots
+   11,004      4           //Bone Boots
+   11,005      4           //Leather Boots
+   11,006      4           //Scale Boots
+   11,007      4           //Sphinx Boots
+   11,008      4           //Brass Boots
+   11,010      4           //Vine Boots
+   11,011      4           //Silk Boots
+   11,012      4           //Wind Boots
+end

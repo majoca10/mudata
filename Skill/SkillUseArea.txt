@@ -1,0 +1,78 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+0
+// --------------------
+// [Index]
+// SkillIndex   Comment
+// --------------------
+   16           //Soul Barrier
+   26           //Heal
+   27           //Greater Defense
+   28           //Greater Damage
+   48           //Sweel Life
+   63           //Summon
+   266          //Ignore Defense
+   267          //Increase Health
+   268          //Increase Block
+   356          //Swell Life Strengthener
+   360          //Swell Life Proficiency
+   363          //Swell Life Mastery
+   403          //Soul Barrier Strengthener
+   404          //Soul Barrier Proficiency
+   413          //Heal Strengthener
+   426          //Party Healing
+   429          //Party Healing Strengthener
+end
+
+1
+// -----------------------------------------------------------------------
+//             [1~255]       [1~255]       [1~255]     [1~255]
+// MapNumber   RangeStartX   RangeStartY   RangeEndX   RangeEndY   Comment
+// -----------------------------------------------------------------------
+   9           045           060           160         190         //Devil Square 1
+   11          008           003           019         014         //Blood Castle 1
+   12          008           003           019         014         //Blood Castle 2
+   13          008           003           019         014         //Blood Castle 3
+   14          008           003           019         014         //Blood Castle 4
+   15          008           003           019         014         //Blood Castle 5
+   16          008           003           019         014         //Blood Castle 6
+   17          008           003           019         014         //Blood Castle 7
+   18          021           073           045         109         //Chaos Castle 1
+   19          021           073           045         109         //Chaos Castle 2
+   20          021           073           045         109         //Chaos Castle 3
+   21          021           073           045         109         //Chaos Castle 4
+   22          021           073           045         109         //Chaos Castle 5
+   23          021           073           045         109         //Chaos Castle 6
+   32          045           060           160         190         //Devil Square 2
+   45          094           126           110         141         //Illusion Temple 1
+   45          138           037           149         049         //Illusion Temple 1
+   45          189           122           202         130         //Illusion Temple 1
+   46          094           126           110         141         //Illusion Temple 2
+   46          138           037           149         049         //Illusion Temple 2
+   46          189           122           202         130         //Illusion Temple 2
+   47          094           126           110         141         //Illusion Temple 3
+   47          138           037           149         049         //Illusion Temple 3
+   47          189           122           202         130         //Illusion Temple 3
+   48          094           126           110         141         //Illusion Temple 4
+   48          138           037           149         049         //Illusion Temple 4
+   48          189           122           202         130         //Illusion Temple 4
+   49          094           126           110         141         //Illusion Temple 5
+   49          138           037           149         049         //Illusion Temple 5
+   49          189           122           202         130         //Illusion Temple 5
+   50          094           126           110         141         //Illusion Temple 6
+   50          138           037           149         049         //Illusion Temple 6
+   50          189           122           202         130         //Illusion Temple 6
+   52          008           003           019         014         //Blood Castle 8
+   53          021           073           045         109         //Chaos Castle 7
+   65          195           034           199         040         //Double Goer 1
+   66          134           078           139         084         //Double Goer 2
+   67          106           065           111         071         //Double Goer 3
+   68          093           023           097         025         //Double Goer 4
+end

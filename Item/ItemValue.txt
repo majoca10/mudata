@@ -1,0 +1,222 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// ----------------------------------------------------------
+// [00,000]    [*/0~15]    [*/N]       [0~2000000000]
+// ItemIndex   ItemLevel   ItemGrade   MoneyValue     Comment
+// ----------------------------------------------------------
+   04,007      0           *           100            //Bolt 0
+   04,007      1           *           1400           //Bolt 1
+   04,007      2           *           2200           //Bolt 2
+   04,007      3           *           3000           //Bolt 3
+   04,015      0           *           70             //Arrow 0
+   04,015      1           *           1200           //Arrow 1
+   04,015      2           *           2000           //Arrow 2
+   04,015      3           *           2800           //Arrow 3
+   12,015      *           *           810000         //Jewel of Chaos
+   12,026      0           *           60000          //Gem of Secret
+   12,030      0           *           90000000       //Bundle of Jewel of Bless 1
+   12,030      1           *           180000000      //Bundle of Jewel of Bless 2
+   12,030      2           *           270000000      //Bundle of Jewel of Bless 3
+   12,031      0           *           60000000       //Bundle of Jewel of Soul 1
+   12,031      1           *           120000000      //Bundle of Jewel of Soul 2
+   12,031      2           *           180000000      //Bundle of Jewel of Soul 3
+   12,130      *           *           240            //Small Cape of Lord
+   12,131      *           *           240            //Small Wing of Curse
+   12,132      *           *           240            //Small Wings of Elf
+   12,133      *           *           240            //Small Wings of Heaven
+   12,134      *           *           240            //Small Wings of Satan
+   12,135      *           *           240            //Little Warrior's Cloak
+   12,136      0           *           450000000      //Jewel of Life Bundle 1
+   12,136      1           *           900000000      //Jewel of Life Bundle 2
+   12,136      2           *           1350000000     //Jewel of Life Bundle 3
+   12,137      0           *           360000000      //Jewel of Creation Bundle 1
+   12,137      1           *           720000000      //Jewel of Creation Bundle 2
+   12,137      2           *           1080000000     //Jewel of Creation Bundle 3
+   12,138      0           *           600000000      //Jewel of Guardian Bundle 1
+   12,138      1           *           1200000000     //Jewel of Guardian Bundle 2
+   12,138      2           *           1800000000     //Jewel of Guardian Bundle 3
+   12,141      0           *           8100000        //Jewel of Chaos Bundle 1
+   12,141      1           *           16200000       //Jewel of Chaos Bundle 2
+   12,141      2           *           24300000       //Jewel of Chaos Bundle 3
+   13,003      *           0           960000         //Horn of Dinorant
+   13,003      *           1           1260000        //Horn of Dinorant
+   13,003      *           2           1260000        //Horn of Dinorant
+   13,003      *           4           1260000        //Horn of Dinorant
+   13,003      *           3           1560000        //Horn of Dinorant
+   13,003      *           5           1560000        //Horn of Dinorant
+   13,003      *           6           1560000        //Horn of Dinorant
+   13,007      0           *           1500000        //Contract (Summon)
+   13,007      1           *           1200000        //Contract (Summon)
+   13,011      1           *           2400000        //Order (Guardian/Life Stone)
+   13,014      0           *           180000         //Loch's Feather
+   13,014      1           *           7500000        //Crest of Monarch
+   13,015      *           *           33000000       //Fruits
+   13,016      1           *           15000          //Scroll of Archangel 1
+   13,016      2           *           21000          //Scroll of Archangel 2
+   13,016      3           *           30000          //Scroll of Archangel 3
+   13,016      4           *           39000          //Scroll of Archangel 4
+   13,016      5           *           48000          //Scroll of Archangel 5
+   13,016      6           *           60000          //Scroll of Archangel 6
+   13,016      7           *           75000          //Scroll of Archangel 7
+   13,016      8           *           90000          //Scroll of Archangel 8
+   13,017      1           *           15000          //Blood Bone 1
+   13,017      2           *           21000          //Blood Bone 2
+   13,017      3           *           30000          //Blood Bone 3
+   13,017      4           *           39000          //Blood Bone 4
+   13,017      5           *           48000          //Blood Bone 5
+   13,017      6           *           60000          //Blood Bone 6
+   13,017      7           *           75000          //Blood Bone 7
+   13,017      8           *           90000          //Blood Bone 8
+   13,018      1           *           150000         //Invisibility Cloak 1
+   13,018      2           *           660000         //Invisibility Cloak 2
+   13,018      3           *           720000         //Invisibility Cloak 3
+   13,018      4           *           780000         //Invisibility Cloak 4
+   13,018      5           *           840000         //Invisibility Cloak 5
+   13,018      6           *           900000         //Invisibility Cloak 6
+   13,018      7           *           960000         //Invisibility Cloak 7
+   13,018      8           *           1020000        //Invisibility Cloak 8
+   13,020      0           *           30000          //Wizards Ring
+   13,029      *           *           5000           //Armor of Guardsman
+   13,031      0           *           30000000       //Spirit
+   13,031      1           *           15000000       //Spirit
+   13,032      *           *           150            //Splinter of Armor
+   13,033      *           *           300            //Bless of Guardian
+   13,034      *           *           3000           //Claw of Beast
+   13,035      *           *           30000          //Fragment of Horn
+   13,036      *           *           90000          //Broken Horn
+   13,037      *           *           150000         //Horn of Fenrir
+   13,038      *           *           9300           //Moonstone Pendant
+   13,049      1           *           500000         //Old Scroll 1
+   13,049      2           *           600000         //Old Scroll 2
+   13,049      3           *           800000         //Old Scroll 3
+   13,049      4           *           1000000        //Old Scroll 4
+   13,049      5           *           1200000        //Old Scroll 5
+   13,049      6           *           1400000        //Old Scroll 6
+   13,050      1           *           500000         //Illusion Sorcerer Covenant 1
+   13,050      2           *           600000         //Illusion Sorcerer Covenant 2
+   13,050      3           *           800000         //Illusion Sorcerer Covenant 3
+   13,050      4           *           1000000        //Illusion Sorcerer Covenant 4
+   13,050      5           *           1200000        //Illusion Sorcerer Covenant 5
+   13,050      6           *           1400000        //Illusion Sorcerer Covenant 6
+   13,051      1           *           500000         //Scroll of Blood 1
+   13,051      2           *           600000         //Scroll of Blood 2
+   13,051      3           *           800000         //Scroll of Blood 3
+   13,051      4           *           1000000        //Scroll of Blood 4
+   13,051      5           *           1200000        //Scroll of Blood 5
+   13,051      6           *           1400000        //Scroll of Blood 6
+   13,052      *           *           3000000        //Condor Flame
+   13,053      *           *           3000000        //Condor Feather
+   13,064      *           *           3000           //Demon
+   13,065      *           *           3000           //Spirit of Guardian
+   13,071      *           *           1000000        //Sword/Mace/Spear
+   13,072      *           *           1000000        //Staff
+   13,073      *           *           1000000        //Bow/Crossbow
+   13,074      *           *           1000000        //Scepter
+   13,075      *           *           1000000        //Stick
+   13,076      *           *           3000           //Panda Ring
+   13,080      *           *           3000           //Pet Panda
+   13,109      *           *           3000           //Sapphire Ring
+   13,110      *           *           3000           //Ruby Ring
+   13,111      *           *           3000           //Topaz Ring
+   13,112      *           *           3000           //Amethyst Ring
+   13,113      *           *           3000           //Ruby Necklace
+   13,114      *           *           3000           //Emerald Necklace
+   13,115      *           *           3000           //Sapphire Necklace
+   13,122      *           *           6000           //Skeleton Transformation Ring
+   13,123      *           *           6000           //Pet Skeleton
+   14,007      0           *           900000         //Siege Potion
+   14,007      1           *           450000         //Siege Potion
+   14,009      1           *           1000           //Ale
+   14,013      *           *           9000000        //Jewel of Bless
+   14,014      *           *           6000000        //Jewel of Soul
+   14,016      *           *           45000000       //Jewel of Life
+   14,017      1           *           15000          //Devil's Eye 1
+   14,017      2           *           21000          //Devil's Eye 2
+   14,017      3           *           30000          //Devil's Eye 3
+   14,017      4           *           45000          //Devil's Eye 4
+   14,017      5           *           60000          //Devil's Eye 5
+   14,017      6           *           75000          //Devil's Eye 6
+   14,017      7           *           90000          //Devil's Eye 7
+   14,018      1           *           15000          //Devil's Key 1
+   14,018      2           *           21000          //Devil's Key 2
+   14,018      3           *           30000          //Devil's Key 3
+   14,018      4           *           45000          //Devil's Key 4
+   14,018      5           *           60000          //Devil's Key 5
+   14,018      6           *           75000          //Devil's Key 6
+   14,018      7           *           90000          //Devil's Key 7
+   14,019      1           *           60000          //Devil's Invitation 1
+   14,019      2           *           84000          //Devil's Invitation 2
+   14,019      3           *           120000         //Devil's Invitation 3
+   14,019      4           *           180000         //Devil's Invitation 4
+   14,019      5           *           240000         //Devil's Invitation 5
+   14,019      6           *           300000         //Devil's Invitation 6
+   14,019      7           *           180000         //Devil's Invitation 7
+   14,020      *           *           900            //Remedy of Love
+   14,021      0           *           9000           //Rena
+   14,021      3           *           3900           //Mark of Lord
+   14,022      *           *           36000000       //Jewel of Creation
+   14,023      *           *           9000           //Scroll of the Emperor
+   14,024      *           *           9000           //Broken Sword
+   14,025      *           *           9000           //Tear of Elf
+   14,026      *           *           9000           //Soul Shard of Wizard
+   14,028      *           *           600000         //Lost Map
+   14,029      *           *           30000          //Symbol of Kundun
+   14,031      *           *           60000000       //Jewel of Guardian
+   14,035      *           *           2000           //Small SD Potion
+   14,036      *           *           4000           //SD Potion
+   14,037      *           *           6000           //Large SD Potion
+   14,038      *           *           2500           //Small Complex Potion
+   14,039      *           *           5000           //Complex Potion
+   14,040      *           *           7500           //Large Complex Potion
+   14,045      *           *           150            //Pumpkin of Luck
+   14,046      *           *           150            //Jack O'Lantern Blessings
+   14,047      *           *           150            //Jack O'Lantern Wrath
+   14,048      *           *           150            //Jack O'Lantern Cry
+   14,049      *           *           150            //Jack O'Lantern Food
+   14,050      *           *           150            //Jack O'Lantern Drink
+   14,051      *           *           200000         //Chistmas Star
+   14,055      *           *           9000           //Green Chaos Box
+   14,056      *           *           9000           //Red Chaos Box
+   14,057      *           *           9000           //Purple Chaos Box
+   14,063      *           *           200000         //Firecracker
+   14,064      *           *           9000           //Cursed Castle Water
+   14,065      *           *           9000           //Death-beam Knight Flame
+   14,066      *           *           9000           //Hell-Miner Horn
+   14,067      *           *           9000           //Dark Phoenix Feather
+   14,068      *           *           9000           //Abyssal Eye
+   14,085      *           *           300            //Cherry Blossom Wine
+   14,086      *           *           300            //Cherry Blossom Rice Cake
+   14,087      *           *           300            //Cherry Blossom Flower Petal
+   14,088      *           *           300            //White Cherry Blossom Branch
+   14,089      *           *           300            //Red Cherry Blossom Branch
+   14,090      *           *           300            //Golden Cherry Blossom Branch
+   14,100      *           *           300            //Lucky Coin
+   14,101      *           *           30000          //Suspicious Scrap of Paper
+   14,102      *           *           30000          //Gaion's Order
+   14,103      *           *           30000          //First Secromicon Fragment
+   14,104      *           *           30000          //Second Secromicon Fragment
+   14,105      *           *           30000          //Third Secromicon Fragment
+   14,106      *           *           30000          //Fourth Secromicon Fragment
+   14,107      *           *           30000          //Fifth Secromicon Fragment
+   14,108      *           *           30000          //Sixth Secromicon Fragment
+   14,109      *           *           30000          //Complete Secromicon
+   14,110      *           *           30000          //Sign of Dimensions
+   14,111      *           *           600000         //Mirror of Dimensions
+   14,112      *           *           3000           //Silver Key
+   14,113      *           *           3000           //Golden Key
+   14,121      *           *           3000           //Sealed Golden Box
+   14,122      *           *           3000           //Sealed Silver Box
+   14,123      *           *           3000           //Golden Box
+   14,124      *           *           3000           //Silver Box
+   14,141      *           *           672000         //Shining Jewelry Case
+   14,142      *           *           546000         //Elegant Jewelry Case
+   14,143      *           *           471000         //Steel Jewelry Case
+   14,144      *           *           363000         //Old Jewelry Case
+end

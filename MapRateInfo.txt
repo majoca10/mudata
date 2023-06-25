@@ -1,0 +1,21 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// --------------------------------------------------------------------------------------------------------
+// [Ref: ItemOptionRate.txt]  [Level]   [Skill]   [Luck]    [JoL]     [Exc]     [Set]     [Socket]
+// --------------------------------------------------------------------------------------------------------
+// [*/N]       [0~4]          [*/N]     [*/N]     [*/N]     [*/N]     [*/N]     [*/N]     [*/N]
+// MapNumber   ItemDropType   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Comment
+// --------------------------------------------------------------------------------------------------------
+   *           0              0         0         0         0         *         *         *         // Drop Common
+   *           1              1         1         1         1         1         *         *         // Drop Excellent
+   *           2              2         2         2         2         *         2         *         // Drop Set
+   *           3              *         *         *         *         *         *         3         // Drop Socket One Hand
+   *           4              *         *         *         *         *         *         4         // Drop Socket Two Hand
+end

@@ -1,0 +1,226 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+0
+// -------------------------------------------------------------------------------------------
+// [0~29]       [*/0000]    [*/0~12]     [*/0~31]   [*/1~7]    [*/0~23]    [*/0~59]   [*/0~59]
+// EventIndex   StartYear   StartMonth   StartDay   StartDoW   StartHour   StartMin   StartSec
+// -------------------------------------------------------------------------------------------
+   0            *           *            *          *          0           5           0
+   0            *           *            *          *          4           5           0
+   0            *           *            *          *          8           5           0
+   0            *           *            *          *          12          5           0
+   0            *           *            *          *          16          5           0
+   0            *           *            *          *          20          5           0
+   1            *           *            *          *          0           15          0
+   1            *           *            *          *          4           15          0
+   1            *           *            *          *          8           15          0
+   1            *           *            *          *          12          15          0
+   1            *           *            *          *          16          15          0
+   1            *           *            *          *          20          15          0
+   2            *           *            *          *          0           25          0
+   2            *           *            *          *          4           25          0
+   2            *           *            *          *          8           25          0
+   2            *           *            *          *          12          25          0
+   2            *           *            *          *          16          25          0
+   2            *           *            *          *          20          25          0
+   3            *           *            *          *          0           50          0
+   3            *           *            *          *          4           50          0
+   3            *           *            *          *          8           50          0
+   3            *           *            *          *          12          50          0
+   3            *           *            *          *          16          50          0
+   3            *           *            *          *          20          50          0
+   4            *           *            *          *          2           5           0
+   4            *           *            *          *          6           5           0
+   4            *           *            *          *          10          5           0
+   4            *           *            *          *          14          5           0
+   4            *           *            *          *          18          5           0
+   4            *           *            *          *          22          5           0
+   5            *           *            *          *          2           15          0
+   5            *           *            *          *          6           15          0
+   5            *           *            *          *          10          15          0
+   5            *           *            *          *          14          15          0
+   5            *           *            *          *          18          15          0
+   5            *           *            *          *          22          15          0
+   6            *           *            *          *          2           25          0
+   6            *           *            *          *          6           25          0
+   6            *           *            *          *          10          25          0
+   6            *           *            *          *          14          25          0
+   6            *           *            *          *          18          25          0
+   6            *           *            *          *          22          25          0
+   7            *           *            *          *          2           50          0
+   7            *           *            *          *          6           50          0
+   7            *           *            *          *          10          50          0
+   7            *           *            *          *          14          50          0
+   7            *           *            *          *          18          50          0
+   7            *           *            *          *          22          50          0
+   8            *           *            *          *          1           0           0
+   8            *           *            *          *          5           0           0
+   8            *           *            *          *          9           0           0
+   8            *           *            *          *          13          0           0
+   8            *           *            *          *          17          0           0
+   8            *           *            *          *          21          0           0
+end
+
+1
+// -------------------------------------------------------------------------------------------------------------------------
+// [0~29]       [*/MsgIndex]     [*/MsgIndex]     [*/N]              [*/MsgIndex]        [InSec]        [0-1-3]
+// EventIndex   RespawnMessage   DespawnMessage   MonsterBossIndex   BossKilledMessage   InvasionTime   EffectType   Comment
+// -------------------------------------------------------------------------------------------------------------------------
+   0            580              *                55                 590                 600            0            // Skeleton King
+   1            581              *                42                 591                 600            1            // Red Dragon
+   2            582              *                501                592                 600            3            // Golden Dragon
+   3            583              *                135                593                 600            0            // White Wizard
+   4            584              *                *                  *                   600            0            // New Year
+   5            585              *                *                  *                   600            0            // Rabbits
+   6            586              *                *                  *                   600            0            // Summer
+   7            587              *                476                594                 600            0            // Christmas
+   8            588              *                561                595                 600            0            // Medusa
+end
+
+2
+// --------------------------------------
+// [0~29]       [0~20]              [0~5]
+// EventIndex   Group   MapNumber   Stage
+// --------------------------------------
+   0            0       0           0
+   0            0       3           0
+   1            0       0           0
+   1            0       2           0
+   1            0       3           0
+   2            0       0           0
+   2            1       2           0
+   2            2       2           0
+   2            3       3           0
+   2            4       0           0
+   2            4       2           0
+   2            4       3           0
+   2            4       51          0
+   2            5       7           0
+   2            6       7           0
+   2            7       8           0
+   2            8       8           0
+   2            9       1           0
+   2            10      4           0
+   2            11      33          0
+   2            12      10          0
+   2            13      37          0
+   2            14      38          0
+   2            15      57          0
+   2            16      56          0
+   2            17      37          0
+   2            17      57          0
+   2            18      51          0
+   3            0       0           0
+   3            0       2           0
+   3            0       3           0
+   4            0       4           0
+   4            0       7           0
+   4            0       8           0
+   4            0       33          0
+   4            0       37          0
+   4            0       57          0
+   5            0       4           0
+   5            0       7           0
+   5            0       8           0
+   5            0       33          0
+   5            0       37          0
+   5            0       57          0
+   6            0       4           0
+   6            0       7           0
+   6            0       8           0
+   6            0       33          0
+   6            0       37          0
+   6            0       57          0
+   7            0       0           0
+   7            0       2           0
+   7            0       3           0
+   8            0       56          0
+   8            0       56          1
+   8            0       56          2
+   8            0       56          3
+end
+
+3
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// [0~29]       [0~20]                 [0~30]                    [1~255]       [1~255]       [1~255]     [1~255]     [1~1000]        [0~5]   [0-1]       [InMs]
+// EventIndex   Group   MonsterIndex   SpawnRadius   MapNumber   RangeStartX   RangeStartY   RangeEndX   RangeEndY   MaxSpawnCount   Stage   RegenType   RegenTime   Comment
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   0            0       55             30            0           125           190           140         203         1               0       0           0           // Skeleton King ~ Lorencia ~ Death King
+   0            0       56             30            0           125           190           140         203         10              0       0           0           // Skeleton King ~ Lorencia ~ Death Bone
+   0            0       55             30            3           195           70            205         86          1               0       0           0           // Skeleton King ~ Noria ~ Death King
+   0            0       56             30            3           195           70            205         86          10              0       0           0           // Skeleton King ~ Noria ~ Death Bone
+   1            0       42             30            0           10            10            240         240         1               0       0           0           // Red Dragon ~ Lorencia ~ Red Dragon
+   1            0       42             30            2           10            10            240         240         1               0       0           0           // Red Dragon ~ Devias ~ Red Dragon
+   1            0       42             30            3           10            10            240         240         1               0       0           0           // Red Dragon ~ Noria ~ Red Dragon
+   2            0       43             30            0           10            10            240         240         5               0       0           0           // Golden Dragon ~ Lorencia ~ Golden Budge Dragon
+   2            1       53             30            2           10            10            240         240         5               0       0           0           // Golden Dragon ~ Devias ~ Golden Titan
+   2            2       54             30            2           10            10            240         240         5               0       0           0           // Golden Dragon ~ Devias ~ Golden Soldier
+   2            3       78             30            3           10            10            240         240         5               0       0           0           // Golden Dragon ~ Noria ~ Golden Goblin
+   2            4       79             30            0           10            10            240         240         1               0       0           0           // Golden Dragon ~ Lorencia ~ Golden Derkon
+   2            4       79             30            2           10            10            240         240         1               0       0           0           // Golden Dragon ~ Devias ~ Golden Derkon
+   2            4       79             30            3           10            10            240         240         1               0       0           0           // Golden Dragon ~ Noria ~ Golden Derkon
+   2            4       79             30            51          10            10            240         240         1               0       0           0           // Golden Dragon ~ Elbeland ~ Golden Derkon
+   2            5       80             30            7           10            10            240         240         3               0       0           0           // Golden Dragon ~ Atlans ~ Golden Lizard King
+   2            6       81             30            7           10            10            240         240         5               0       0           0           // Golden Dragon ~ Atlans ~ Golden Vepar
+   2            7       82             30            8           10            10            240         240         3               0       0           0           // Golden Dragon ~ Tarkan ~ Golden Tantalos
+   2            8       83             30            8           10            10            240         240         5               0       0           0           // Golden Dragon ~ Tarkan ~ Golden Wheel
+   2            9       493            30            1           2             52            43          125         3               0       0           0           // Golden Dragon ~ Dungeon ~ Golden Dark Knight
+   2            10      494            30            4           10            10            240         240         3               0       0           0           // Golden Dragon ~ Losttower ~ Golden Devil
+   2            11      495            30            33          10            10            240         240         3               0       0           0           // Golden Dragon ~ Aida ~ Golden Stone Golem
+   2            12      496            30            10          10            10            240         240         3               0       0           0           // Golden Dragon ~ Icarus ~ Golden Crust
+   2            13      497            30            37          10            10            240         240         3               0       0           0           // Golden Dragon ~ Kanturu ~ Golden Satyros
+   2            14      498            30            38          10            10            240         240         3               0       0           0           // Golden Dragon ~ Kanturu 2 ~ Golden Twin Tail
+   2            15      499            30            57          10            10            240         240         3               0       0           0           // Golden Dragon ~ Raklion 1 ~ Golden Iron Knight
+   2            16      500            30            56          10            10            240         240         3               0       0           0           // Golden Dragon ~ Swamp of Calmness ~ Golden Napin
+   2            17      501            30            37          10            10            240         240         1               0       0           0           // Golden Dragon ~ Kanturu ~ Great Golden Dragon
+   2            17      501            30            57          10            10            240         240         1               0       0           0           // Golden Dragon ~ Raklion 1 ~ Great Golden Dragon
+   2            18      502            30            51          10            10            240         240         5               0       0           0           // Golden Dragon ~ Elbeland ~ Golden Rabbit
+   3            0       135            30            0           148           47            164         65          1               0       0           0           // White Wizard ~ Lorencia ~ White wizard
+   3            0       136            30            0           148           47            164         65          10              0       0           0           // White Wizard ~ Lorencia ~ Destructive ogre soldier
+   3            0       137            30            0           148           47            164         65          10              0       0           0           // White Wizard ~ Lorencia ~ Destructive ogre archer
+   3            0       135            30            2           158           12            167         24          1               0       0           0           // White Wizard ~ Devias ~ White wizard
+   3            0       136            30            2           158           12            167         24          10              0       0           0           // White Wizard ~ Devias ~ Destructive ogre soldier
+   3            0       137            30            2           158           12            167         24          10              0       0           0           // White Wizard ~ Devias ~ Destructive ogre archer
+   3            0       135            30            3           194           70            204         86          1               0       0           0           // White Wizard ~ Noria ~ White wizard
+   3            0       136            30            3           194           70            204         86          10              0       0           0           // White Wizard ~ Noria ~ Destructive ogre soldier
+   3            0       137            30            3           194           70            204         86          10              0       0           0           // White Wizard ~ Noria ~ Destructive ogre archer
+   4            0       365            30            4           10            10            240         240         10              0       0           0           // New Year ~ Losttower ~ Pouch of Blessing
+   4            0       365            30            7           10            10            240         240         10              0       0           0           // New Year ~ Atlans ~ Pouch of Blessing
+   4            0       365            30            8           10            10            240         240         10              0       0           0           // New Year ~ Tarkan ~ Pouch of Blessing
+   4            0       365            30            33          10            10            240         240         10              0       0           0           // New Year ~ Aida ~ Pouch of Blessing
+   4            0       365            30            37          10            10            240         240         10              0       0           0           // New Year ~ Kanturu ~ Pouch of Blessing
+   4            0       365            30            57          10            10            240         240         10              0       0           0           // New Year ~ Raklion 1 ~ Pouch of Blessing
+   5            0       413            30            4           10            10            240         240         10              0       0           0           // Rabbits ~ Losttower ~ Lunar Rabbit
+   5            0       413            30            7           10            10            240         240         10              0       0           0           // Rabbits ~ Atlans ~ Lunar Rabbit
+   5            0       413            30            8           10            10            240         240         10              0       0           0           // Rabbits ~ Tarkan ~ Lunar Rabbit
+   5            0       413            30            33          10            10            240         240         10              0       0           0           // Rabbits ~ Aida ~ Lunar Rabbit
+   5            0       413            30            37          10            10            240         240         10              0       0           0           // Rabbits ~ Kanturu ~ Lunar Rabbit
+   5            0       413            30            57          10            10            240         240         10              0       0           0           // Rabbits ~ Raklion 1 ~ Lunar Rabbit
+   6            0       463            30            4           10            10            240         240         10              0       0           0           // Summer ~ Losttower ~ Fire Flame Ghost
+   6            0       463            30            7           10            10            240         240         10              0       0           0           // Summer ~ Atlans ~ Fire Flame Ghost
+   6            0       463            30            8           10            10            240         240         10              0       0           0           // Summer ~ Tarkan ~ Fire Flame Ghost
+   6            0       463            30            33          10            10            240         240         10              0       0           0           // Summer ~ Aida ~ Fire Flame Ghost
+   6            0       463            30            37          10            10            240         240         10              0       0           0           // Summer ~ Kanturu ~ Fire Flame Ghost
+   6            0       463            30            57          10            10            240         240         10              0       0           0           // Summer ~ Raklion 1 ~ Fire Flame Ghost
+   7            0       466            30            0           148           47            164         65          10              0       0           0           // Christmas ~ Lorencia ~ Cursed Goblin
+   7            0       476            30            0           148           47            164         65          1               0       0           0           // Christmas ~ Lorencia ~ Cursed Santa
+   7            0       466            30            2           158           12            167         24          10              0       0           0           // Christmas ~ Devias ~ Cursed Goblin
+   7            0       476            30            2           158           12            167         24          1               0       0           0           // Christmas ~ Devias ~ Cursed Santa
+   7            0       466            30            3           194           70            204         86          10              0       0           0           // Christmas ~ Noria ~ Cursed Goblin
+   7            0       476            30            3           194           70            204         86          1               0       0           0           // Christmas ~ Noria ~ Cursed Santa
+   8            0       560            30            56          50            103           57          114         7               0       0           0           // Medusa ~ Swamp of Calmness ~ Sapi Queen
+   8            0       560            30            56          127           162           136         171         7               1       0           0           // Medusa ~ Swamp of Calmness ~ Sapi Queen
+   8            0       560            30            56          149           10            162         19          7               2       0           0           // Medusa ~ Swamp of Calmness ~ Sapi Queen
+   8            0       560            30            56          178           114           184         129         7               3       0           0           // Medusa ~ Swamp of Calmness ~ Sapi Queen
+   8            0       561            30            56          50            103           57          114         1               0       0           0           // Medusa ~ Swamp of Calmness ~ Medusa
+   8            0       561            30            56          127           162           136         171         1               1       0           0           // Medusa ~ Swamp of Calmness ~ Medusa
+   8            0       561            30            56          149           10            162         19          1               2       0           0           // Medusa ~ Swamp of Calmness ~ Medusa
+   8            0       561            30            56          178           114           184         129         1               3       0           0           // Medusa ~ Swamp of Calmness ~ Medusa
+end

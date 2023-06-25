@@ -1,0 +1,116 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// ---------------------------------------------------------------------
+// [00,000]    [0-1]       [0-1]       [0-1]       [0-1]
+// ItemIndex   AllowDrop   AllowSell   AllowTrade   AllowVault   Comment
+// ---------------------------------------------------------------------
+   12,000      0           1           1            1            //Wings of Elf
+   12,001      0           1           1            1            //Wings of Heaven
+   12,002      0           1           1            1            //Wings of Satan
+   12,003      0           1           1            1            //Wings of Spirits
+   12,004      0           1           1            1            //Wings of Soul
+   12,005      0           1           1            1            //Wings of Dragon
+   12,006      0           1           1            1            //Wings of Darkness
+   12,015      0           1           1            1            //Jewel of Chaos
+   12,030      0           1           1            1            //Bundled Jewel of Bless
+   12,031      0           1           1            1            //Bundled Jewel of Soul
+   12,036      0           1           1            1            //Wing of Storm
+   12,037      0           1           1            1            //Wing of Eternal
+   12,038      0           1           1            1            //Wing of Illusion
+   12,039      0           1           1            1            //Wing of Ruin
+   12,040      0           1           1            1            //Cape of Emperor
+   12,041      0           1           1            1            //Wing of Curse
+   12,042      0           1           1            1            //Wind of Despair
+   12,043      0           1           1            1            //Wing of Dimension
+   12,060      0           1           1            1            //Seed (Fire)
+   12,061      0           1           1            1            //Seed (Water)
+   12,062      0           1           1            1            //Seed (Ice)
+   12,063      0           1           1            1            //Seed (Wind)
+   12,064      0           1           1            1            //Seed (Lightning)
+   12,065      0           1           1            1            //Seed (Earth)
+   12,070      0           1           1            1            //Sphere (Mono)
+   12,071      0           1           1            1            //Sphere (Di)
+   12,072      0           1           1            1            //Sphere (Tri)
+   12,073      0           1           1            1            //Sphere (Tetra)
+   12,074      0           1           1            1            //Sphere (Penta)
+   12,100      0           1           1            1            //Seed Sphere (Fire)
+   12,101      0           1           1            1            //Seed Sphere (Water)
+   12,102      0           1           1            1            //Seed Sphere (Ice)
+   12,103      0           1           1            1            //Seed Sphere (Wind)
+   12,104      0           1           1            1            //Seed Sphere (Lightning)
+   12,105      0           1           1            1            //Seed Sphere (Earth)
+   12,106      0           1           1            1            //Seed Sphere (Fire)
+   12,107      0           1           1            1            //Seed Sphere (Water)
+   12,108      0           1           1            1            //Seed Sphere (Ice)
+   12,109      0           1           1            1            //Seed Sphere (Wind)
+   12,110      0           1           1            1            //Seed Sphere (Lightning)
+   12,111      0           1           1            1            //Seed Sphere (Earth)
+   12,112      0           1           1            1            //Seed Sphere (Fire)
+   12,113      0           1           1            1            //Seed Sphere (Water)
+   12,114      0           1           1            1            //Seed Sphere (Ice)
+   12,115      0           1           1            1            //Seed Sphere (Wind)
+   12,116      0           1           1            1            //Seed Sphere (Lightning)
+   12,117      0           1           1            1            //Seed Sphere (Earth)
+   12,118      0           1           1            1            //Seed Sphere (Fire)
+   12,119      0           1           1            1            //Seed Sphere (Water)
+   12,120      0           1           1            1            //Seed Sphere (Ice)
+   12,121      0           1           1            1            //Seed Sphere (Wind)
+   12,122      0           1           1            1            //Seed Sphere (Lightning)
+   12,123      0           1           1            1            //Seed Sphere (Earth)
+   12,124      0           1           1            1            //Seed Sphere (Fire)
+   12,125      0           1           1            1            //Seed Sphere (Water)
+   12,126      0           1           1            1            //Seed Sphere (Ice)
+   12,127      0           1           1            1            //Seed Sphere (Wind)
+   12,128      0           1           1            1            //Seed Sphere (Lightning)
+   12,129      0           1           1            1            //Seed Sphere (Earth)
+   12,130      0           1           1            1            //Small Cape of Lord
+   12,131      0           1           1            1            //Small Wing of Curse
+   12,132      0           1           1            1            //Small Wings of Elf
+   12,133      0           1           1            1            //Small Wings of Heaven
+   12,134      0           1           1            1            //Small Wings of Satan
+   12,135      0           1           1            1            //Small Cloak of Warrior
+   12,136      0           1           1            1            //Bundled Jewel of Life
+   12,137      0           1           1            1            //Bundled Jewel of Creation
+   12,138      0           1           1            1            //Bundled Jewel of Guardian
+   12,139      0           1           1            1            //Bundled Gemstone
+   12,140      0           1           1            1            //Bundled Jewel of Harmony
+   12,141      0           1           1            1            //Bundled Jewel of Chaos
+   12,142      0           1           1            1            //Bundled Lower Refining Stone
+   12,143      0           1           1            1            //Bundled Higer Refining Stone
+   13,000      0           1           1            1            //Guardian Angel
+   13,001      0           1           1            1            //Imp
+   13,002      0           1           1            1            //Horn of Uniria
+   13,003      0           1           1            1            //Horn of Dinorant
+   13,019      1           0           0            0            //Absolute Weapon of Archangel
+   13,020      1           1           0            0            //Wizards Ring
+   13,037      0           1           1            1            //Horn of Fenrir
+   13,038      1           1           0            1            //Moonstone Pendant
+   13,039      1           1           0            1            //Eilte Transfer Skeleton Ring
+   13,054      0           1           1            1            //Reset Fruit Strength
+   13,055      0           1           1            1            //Reset Fruit Quickness
+   13,056      0           1           1            1            //Reset Fruit Health
+   13,057      0           1           1            1            //Reset Fruit Energy
+   13,058      0           1           1            1            //Reset Fruit Control
+   13,064      0           1           1            1            //Demon
+   13,065      0           1           1            1            //Spirit of Guardian
+   13,067      0           1           1            1            //Pet Rudolf
+   13,080      0           1           1            1            //Pet Panda
+   14,013      0           1           1            1            //Jewel of Bless
+   14,014      0           1           1            1            //Jewel of Soul
+   14,016      0           1           1            1            //Jewel of Life
+   14,022      0           1           1            1            //Jewel of Creation
+   14,041      0           1           1            1            //Gemstone
+   14,042      0           1           1            1            //Jewel of Harmony
+   14,043      0           1           1            1            //Lower refining stone
+   14,044      0           1           1            1            //Higher refining stone
+   14,053      0           1           1            1            //Talisman of Luck
+   14,064      1           0           0            0            //Cursed Castle Water
+   14,096      0           1           1            1            //Talisman of Chaos Assembly
+end

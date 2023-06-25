@@ -1,0 +1,21 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -----------------------------------------------------------------
+// OptionIndex   Name                                    OptionValue
+// -----------------------------------------------------------------
+   1             "Attack sucess rate increase (PVP)"     10
+   2             "Additional Damage (PVP)"               200
+   3             "Defense Success Rate increase (PVP)"   10
+   4             "Defensive Skill (PVP)"                 200
+   5             "Max HP increase"                       200
+   6             "Max SD increase"                       700
+   7             "SD Auto Recovery"                      1
+   8             "SD Recovery Rate increase"             2
+end

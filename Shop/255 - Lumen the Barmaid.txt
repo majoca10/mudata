@@ -1,0 +1,59 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------------------------------------------------------------------------------------------------
+// [00,000]    [0~15]      [0~255]      [0-1]         [0-1]        [0~7]       [0~63]      [Index]     [0~5]
+// ItemIndex   ItemLevel   Durability   SkillSwitch   LuckSwitch   Aditional   Excellent   SetOption   SocketCount   Comment
+// -------------------------------------------------------------------------------------------------------------------------
+   14,009      0           1            0             0            0           0           0           0             //Ale
+   14,010      0           1            0             0            0           0           0           0             //Town Portal Scroll
+   13,016      1           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      2           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      3           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      4           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      5           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      6           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      7           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,016      8           0            0             0            0           0           0           0             //Scroll of Archangel
+   13,017      1           0            0             0            0           0           0           0             //Blood Bone
+   13,017      2           0            0             0            0           0           0           0             //Blood Bone
+   13,017      3           0            0             0            0           0           0           0             //Blood Bone
+   13,017      4           0            0             0            0           0           0           0             //Blood Bone
+   13,017      5           0            0             0            0           0           0           0             //Blood Bone
+   13,017      6           0            0             0            0           0           0           0             //Blood Bone
+   13,017      7           0            0             0            0           0           0           0             //Blood Bone
+   13,017      8           0            0             0            0           0           0           0             //Blood Bone
+   13,049      1           1            0             0            0           0           0           0             //Old Scroll
+   13,049      2           1            0             0            0           0           0           0             //Old Scroll
+   13,049      3           1            0             0            0           0           0           0             //Old Scroll
+   13,049      4           1            0             0            0           0           0           0             //Old Scroll
+   13,049      5           1            0             0            0           0           0           0             //Old Scroll
+   13,049      6           1            0             0            0           0           0           0             //Old Scroll
+   13,050      1           1            0             0            0           0           0           0             //Illusion Sorcerer Covenant
+   13,050      2           1            0             0            0           0           0           0             //Illusion Sorcerer Covenant
+   13,050      3           1            0             0            0           0           0           0             //Illusion Sorcerer Covenant
+   13,050      4           1            0             0            0           0           0           0             //Illusion Sorcerer Covenant
+   13,050      5           1            0             0            0           0           0           0             //Illusion Sorcerer Covenant
+   13,050      6           1            0             0            0           0           0           0             //Illusion Sorcerer Covenant
+   14,017      1           0            0             0            0           0           0           0             //Devil's Eye
+   14,017      2           0            0             0            0           0           0           0             //Devil's Eye
+   14,017      3           0            0             0            0           0           0           0             //Devil's Eye
+   14,017      4           0            0             0            0           0           0           0             //Devil's Eye
+   14,017      5           0            0             0            0           0           0           0             //Devil's Eye
+   14,017      6           0            0             0            0           0           0           0             //Devil's Eye
+   14,017      7           0            0             0            0           0           0           0             //Devil's Eye
+   14,018      1           0            0             0            0           0           0           0             //Devil's Key
+   14,018      2           0            0             0            0           0           0           0             //Devil's Key
+   14,018      3           0            0             0            0           0           0           0             //Devil's Key
+   14,018      4           0            0             0            0           0           0           0             //Devil's Key
+   14,018      5           0            0             0            0           0           0           0             //Devil's Key
+   14,018      6           0            0             0            0           0           0           0             //Devil's Key
+   14,018      7           0            0             0            0           0           0           0             //Devil's Key
+   13,029      0           1            0             0            0           0           0           0             //Armor of Guardsman
+end

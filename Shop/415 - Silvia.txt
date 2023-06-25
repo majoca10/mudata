@@ -1,0 +1,19 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------------------------------------------------------------------------------------------------
+// [00,000]    [0~15]      [0~255]      [0-1]         [0-1]        [0~7]       [0~63]      [Index]     [0~5]
+// ItemIndex   ItemLevel   Durability   SkillSwitch   LuckSwitch   Aditional   Excellent   SetOption   SocketCount   Comment
+// -------------------------------------------------------------------------------------------------------------------------
+   15,003      0           0            0             0            0           0           0           0             //Scroll of Fire Ball
+   15,010      0           0            0             0            0           0           0           0             //Scroll of Power Wave
+   15,001      0           0            0             0            0           0           0           0             //Scroll of Meteorite
+   15,006      0           0            0             0            0           0           0           0             //Scroll of Ice
+   15,020      0           0            0             0            0           0           0           0             //Drain Life Parchment
+end

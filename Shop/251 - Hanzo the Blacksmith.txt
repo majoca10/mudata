@@ -1,0 +1,45 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------------------------------------------------------------------------------------------------
+// [00,000]    [0~15]      [0~255]      [0-1]         [0-1]        [0~7]       [0~63]      [Index]     [0~5]
+// ItemIndex   ItemLevel   Durability   SkillSwitch   LuckSwitch   Aditional   Excellent   SetOption   SocketCount   Comment
+// -------------------------------------------------------------------------------------------------------------------------
+   07,000      9           0            0             1            1           0           0           0             //Helm Bronze
+   07,008      9           0            0             1            1           0           0           0             //Helm Brass
+   07,006      9           0            0             1            1           0           0           0             //Helm Scale
+   07,025      9           0            0             1            1           0           0           0             //Helm Light Plate
+
+   08,000      9           0            0             1            1           0           0           0             //Armor Bronze
+   08,008      9           0            0             1            1           0           0           0             //Armor Brass
+   08,006      9           0            0             1            1           0           0           0             //Armor Scale
+   08,025      9           0            0             1            1           0           0           0             //Armor Light Plate
+
+   09,000      9           0            0             1            1           0           0           0             //Pants Bronze
+   09,008      9           0            0             1            1           0           0           0             //Pants Brass
+   09,006      9           0            0             1            1           0           0           0             //Pants Scale
+   09,025      9           0            0             1            1           0           0           0             //Pants Light Plate
+
+   10,000      9           0            0             1            1           0           0           0             //Gloves Bronze
+   10,008      9           0            0             1            1           0           0           0             //Gloves Brass
+   10,006      9           0            0             1            1           0           0           0             //Gloves Scale
+   10,025      9           0            0             1            1           0           0           0             //Gloves Light Plate
+
+   11,000      9           0            0             1            1           0           0           0             //Boots Bronze
+   11,008      9           0            0             1            1           0           0           0             //Boots Brass
+   11,006      9           0            0             1            1           0           0           0             //Boots Scale
+   11,025      9           0            0             1            1           0           0           0             //Boots Light Plate
+
+   00,013      9           0            1             1            1           0           0           0             //Double Blade
+   00,032      9           0            1             1            1           0           0           0             //Sacred Gloves
+
+   02,008      9           0            1             1            1           0           0           0             //Battle Scepter
+
+   
+end

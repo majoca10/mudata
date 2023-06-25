@@ -1,0 +1,34 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------------------------------------------------------------------------------------------------
+// [00,000]    [0~15]      [0~255]      [0-1]         [0-1]        [0~7]       [0~63]      [Index]     [0~5]
+// ItemIndex   ItemLevel   Durability   SkillSwitch   LuckSwitch   Aditional   Excellent   SetOption   SocketCount   Comment
+// -------------------------------------------------------------------------------------------------------------------------
+   07,039      2           0            0             1            1           0           0           0             //Violent Wind Helm
+   08,039      2           0            0             1            1           0           0           0             //Violent Wind Armor
+   09,039      2           0            0             1            1           0           0           0             //Violent Wind Pants
+   10,039      2           0            0             1            1           0           0           0             //Violent Wind Gloves
+   11,039      2           0            0             1            1           0           0           0             //Violent Wind Boots
+   07,040      3           0            0             1            1           0           0           0             //Red Wing Helm
+   08,040      3           0            0             1            1           0           0           0             //Red Wing Armor
+   09,040      3           0            0             1            1           0           0           0             //Red Wing Pants
+   10,040      3           0            0             1            1           0           0           0             //Red Wing Gloves
+   11,040      3           0            0             1            1           0           0           0             //Red Wing Boots
+   01,000      1           0            0             1            1           0           0           0             //Small Axe
+   00,001      0           0            0             1            1           0           0           0             //Short Sword
+   01,001      1           0            0             1            1           0           0           0             //Hand Axe
+   00,002      2           0            0             1            1           0           0           0             //Rapier
+   01,004      1           0            0             1            1           0           0           0             //Elven Axe
+   00,000      1           0            0             1            1           0           0           0             //Kris
+   05,000      1           0            0             1            1           0           0           0             //Skull Staff
+   05,014      1           0            0             1            1           0           0           0             //Mystery Stick
+   05,015      2           0            0             1            1           0           0           0             //Violent Wind Stick
+   05,016      3           0            0             1            1           0           0           0             //Red Wing Stick
+end

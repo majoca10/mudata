@@ -1,0 +1,54 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------------------------------------------------------
+// [00,000]    [1~8]          [*/N]          [1~8]          [*/N]
+// ItemIndex   OptionIndex1   OptionValue1   OptionIndex2   OptionValue2   Comment
+// -------------------------------------------------------------------------------
+   00,022      2              *              1              *              //Bone Blade
+   00,023      2              *              1              *              //Explosion Blade
+   00,035      2              *              1              *              //Phoenix Soul Star
+   02,014      2              *              1              *              //Soleil Sceptor
+   04,021      2              *              1              *              //Sylph Wind Bow
+   05,012      2              *              1              *              //Grand Viper Staff
+   05,019      2              *              1              *              //Storm Blitz Stick
+   07,029      8              *              3              *              //Dragon Knight Helm
+   07,030      8              *              3              *              //Venom Mist Helm
+   07,031      8              *              3              *              //Sylphid Ray Helm
+   07,033      8              *              3              *              //Sunlight Mask
+   07,043      8              *              3              *              //Storm Blitz Helm
+   07,073      8              *              3              *              //Phoenix Soul Helm
+   08,029      7              *              3              *              //Dragon Knight Armor
+   08,030      7              *              3              *              //Venom Mist Armor
+   08,031      7              *              3              *              //Sylphid Ray Armor
+   08,032      7              *              3              *              //Volcano Armor
+   08,033      7              *              3              *              //Sunlight Armor
+   08,043      7              *              3              *              //Storm Blitz Armor
+   08,073      7              *              3              *              //Phoenix Soul Armor
+   09,029      4              *              3              *              //Dragon Knight Pants
+   09,030      4              *              3              *              //Venom Mist Pants
+   09,031      4              *              3              *              //Sylphid Ray Pants
+   09,032      4              *              3              *              //Volcano Pants
+   09,033      4              *              3              *              //Sunlight Pants
+   09,043      4              *              3              *              //Storm Blitz Pants
+   09,073      4              *              3              *              //Phoenix Soul Pants
+   10,029      5              *              3              *              //Dragon Knight Gloves
+   10,030      5              *              3              *              //Venom Mist Gloves
+   10,031      5              *              3              *              //Sylphid Ray Gloves
+   10,032      5              *              3              *              //Volcano Gloves
+   10,033      5              *              3              *              //Sunlight Gloves
+   10,043      5              *              3              *              //Storm Blitz Gloves
+   11,029      6              *              3              *              //Dragon Knight Boots
+   11,030      6              *              3              *              //Venom Mist Boots
+   11,031      6              *              3              *              //Sylphid Ray Boots
+   11,032      6              *              3              *              //Volcano Boots
+   11,033      6              *              3              *              //Sunlight Boots
+   11,043      6              *              3              *              //Storm Blitz Boots
+   11,073      6              *              3              *              //Phoenix Soul Boots
+end

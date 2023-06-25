@@ -1,0 +1,75 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+// -------------------------------
+// [00,000]    [1~5]
+// ItemIndex   MaxSocket   Comment
+// -------------------------------
+   00,026      3           //Flameberge
+   00,027      3           //Sword Breaker
+   00,028      3           //Rune Bastard Sword
+   02,016      3           //Frost Mace
+   02,017      3           //Absolute Scepter
+   04,023      5           //Dark Stinger
+   05,020      3           //Eternal Wing Stick
+   05,030      3           //Deadly Staff
+   05,031      3           //Inberial Staff
+   06,017      3           //Crimson Glory
+   06,018      3           //Salamander Shield
+   06,019      3           //Frost Barrier
+   06,020      3           //Guardian Shield
+   07,044      3           //Eternal Wing Helm
+   07,045      3           //Titan Helm
+   07,046      3           //Brave Helm
+   07,049      3           //Seraphim Helm
+   07,050      3           //Divine Helm
+   07,051      3           //Royal Mask
+   07,052      3           //Hades Helm
+   07,053      3           //Succubus Helm
+   08,044      3           //Eternal Wing Armor
+   08,045      3           //Titan Armor
+   08,046      3           //Brave Armor
+   08,047      3           //Phantom Armor
+   08,048      3           //Destroy Armor
+   08,049      3           //Seraphim Armor
+   08,050      3           //Divine Armor
+   08,051      3           //Royal Armor
+   08,052      3           //Hades Armor
+   08,053      3           //Succubus Armor
+   09,044      3           //Eternal Wing Pants
+   09,045      3           //Titan Pants
+   09,046      3           //Brave Pants
+   09,047      3           //Phantom Pants
+   09,048      3           //Destroy Pants
+   09,049      3           //Seraphim Pants
+   09,050      3           //Divine Pants
+   09,051      3           //Royal Pants
+   09,052      3           //Hades Pants
+   09,053      3           //Succubus Pants
+   10,044      3           //Eternal Wing Gloves
+   10,045      3           //Titan Gloves
+   10,046      3           //Brave Gloves
+   10,047      3           //Phantom Gloves
+   10,048      3           //Destroy Gloves
+   10,049      3           //Seraphim Gloves
+   10,050      3           //Divine Gloves
+   10,051      3           //Royal Gloves
+   10,052      3           //Hades Gloves
+   10,053      3           //Succubus Gloves
+   11,044      3           //Eternal Wing Boots
+   11,045      3           //Titan Boots
+   11,046      3           //Brave Boots
+   11,047      3           //Phantom Boots
+   11,048      3           //Destroy Boots
+   11,049      3           //Seraphim Boots
+   11,050      3           //Divine Boots
+   11,051      3           //Royal Boots
+   11,052      3           //Hades Boots
+   11,053      3           //Succubus Boots
+end

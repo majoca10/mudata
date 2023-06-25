@@ -1,0 +1,98 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com.ar
+//# -- www.facebook.com/ssemuemulator
+//# -- © 2023 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+0
+// ----------------------------------------------------------------------------------------------------------------------
+// [*/N]        [*/N]          [*/N]          [*/N]          [*/N]          [InMs]        [InMs]      [InMs]
+// SkillIndex   MinDexterity   MaxDexterity   MinCharSpeed   MaxCharSpeed   AttackDelay   BaseSpeed   MainSpeed   Comment
+// ----------------------------------------------------------------------------------------------------------------------
+   *            *              *              *              *              *             1500        4           // Formula: (BaseSpeed-(PlayerSpeed*MainSpeed)) [Only if AttackDelay is *]
+end
+
+1
+// ------------------------------------------------------------------
+// Index   Group   Value   DW   DK   FE   MG   DL   SU   RF   Comment
+// ------------------------------------------------------------------
+   1       1       0       1    1    1    1    1    1    1    //Poison
+   2       1       0       1    1    1    1    1    1    1    //Meteorite
+   3       1       0       1    1    1    1    1    1    1    //Lightning
+   4       1       0       1    1    1    1    1    1    1    //Fire Ball
+   5       2       1       1    1    1    1    1    1    1    //Flame
+   7       1       0       1    1    1    1    1    1    1    //Ice
+   8       2       0       1    1    1    1    1    1    1    //Twister
+   9       2       1       1    1    1    1    1    1    1    //Evil Spirit
+   10      2       1       1    1    1    1    1    1    1    //Hell Fire
+   11      1       0       1    1    1    1    1    1    1    //Power Wave
+   12      2       0       1    1    1    1    1    1    1    //Aqua Beam
+   13      2       0       1    1    1    1    1    1    1    //Blast
+   14      2       1       1    1    1    1    1    1    1    //Inferno
+   16      0       1       1    1    1    1    1    1    1    //Mana Shield
+   17      1       0       1    1    1    1    1    1    1    //Energy Ball
+   19      1       0       1    1    1    1    1    1    1    //Falling Slash
+   20      1       0       1    1    1    1    1    1    1    //Lunge
+   21      1       0       1    1    1    1    1    1    1    //Uppercut
+   22      1       0       1    1    1    1    1    1    1    //Cyclone
+   23      1       0       1    1    1    1    1    1    1    //Slash
+   24      2       1       1    1    1    1    1    1    1    //Triple Shot
+   26      0       1       1    1    1    1    1    1    1    //Heal
+   27      0       1       1    1    1    1    1    1    1    //Greater Defense
+   28      0       1       1    1    1    1    1    1    1    //Greater Damage
+   38      3       0       1    1    1    1    1    1    1    //Decay
+   39      3       0       1    1    1    1    1    1    1    //Ice Storm
+   41      3       1       1    1    1    1    1    1    1    //Twisting Slash
+   42      3       1       1    1    1    1    1    1    1    //Rageful Blow
+   43      1       0       1    1    1    1    1    1    1    //Death Stab
+   48      0       2       1    1    1    1    1    1    1    //Greater Life
+   51      1       0       1    1    1    1    1    1    1    //Ice Arrow
+   52      2       0       1    1    1    1    1    1    1    //Penetration
+   55      2       0       1    1    1    1    1    1    1    //Fire Slash
+   56      3       1       1    1    1    1    1    1    1    //Power Slash
+   60      3       0       1    1    1    1    1    1    1    //Force
+   61      1       0       1    1    1    1    1    1    1    //Fire Burst
+   62      3       1       1    1    1    1    1    1    1    //Earthquake
+   64      0       2       1    1    1    1    1    1    1    //Greater Critical Damage
+   65      3       1       1    1    1    1    1    1    1    //Electric Spark
+   66      3       0       1    1    1    1    1    1    1    //Force Wave
+   76      3       1       1    1    1    1    1    1    1    //Plasma Storm
+   77      0       0       1    1    1    1    1    1    1    //Infinity Arrow
+   78      2       0       1    1    1    1    1    1    1    //Fire Scream
+   214     1       0       1    1    1    1    1    1    1    //Drain Life
+   215     1       0       1    1    1    1    1    1    1    //Chain Lightning
+   217     0       1       1    1    1    1    1    1    1    //Damage Reflect
+   218     0       0       1    1    1    1    1    1    1    //Sword Power
+   221     3       1       1    1    1    1    1    1    1    //Lesser Damage
+   222     3       1       1    1    1    1    1    1    1    //Lesser Defense
+   223     1       0       1    1    1    1    1    1    1    //Sahamutt
+   224     1       0       1    1    1    1    1    1    1    //Neil
+   225     2       0       1    1    1    1    1    1    1    //Ghost Phantom
+   230     3       1       1    1    1    1    1    1    1    //Red Storm
+   232     3       0       1    1    1    1    1    1    1    //Frozen Stab
+   233     0       0       1    1    1    1    1    1    1    //Magic Circle
+   235     3       1       1    1    1    1    1    1    1    //Five Shot
+   236     3       1       1    1    1    1    1    1    1    //Sword Slash
+   237     3       1       1    1    1    1    1    1    1    //Lightning Storm
+   238     3       1       1    1    1    1    1    1    1    //Birds
+   260     1       0       1    1    1    1    1    1    1    //Large Ring Blower
+   261     4       0       1    1    1    1    1    1    1    //Upper Beast
+   262     4       0       1    1    1    1    1    1    1    //Chain Driver
+   263     4       0       1    1    1    1    1    1    1    //Dark Side
+   264     3       0       1    1    1    1    1    1    1    //Dragon Lore
+   265     1       0       1    1    1    1    1    1    1    //Dragon Slayer
+   266     0       0       1    1    1    1    1    1    1    //Greater Ignore Damage Rate
+   267     0       2       1    1    1    1    1    1    1    //Fitness
+   268     0       2       1    1    1    1    1    1    1    //Greater Defense Success Rate
+   270     3       0       1    1    1    1    1    1    1    //Phoenix Shot
+   344     3       0       1    1    1    1    1    1    1    //Blood Storm
+   425     0       1       1    1    1    1    1    1    1    //Cure
+   427     1       0       1    1    1    1    1    1    1    //Poison Arrow
+   430     0       1       1    1    1    1    1    1    1    //Bless
+   461     1       0       1    1    1    1    1    1    1    //Blind
+   495     3       1       1    1    1    1    1    1    1    //Earth Prison
+   565     0       0       1    1    1    1    1    1    1    //Blood Howling
+end
